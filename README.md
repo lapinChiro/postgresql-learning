@@ -3,11 +3,12 @@
 ## Getting Start
 
 ```sh
-
 # Create a dockerized database
-./init.sh
+./cli/init.sh
+
+# Prepare smaple data
+./cli/prepare.sh
 
 # Enter the database using psql
-./access.sh
-
+./cli/access.sh
 ```
