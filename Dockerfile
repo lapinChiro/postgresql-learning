@@ -1,4 +1,4 @@
-FROM postgres:15-alpine
+FROM postgres:14-alpine
 
 # Time Zone
 ENV TZ Asia/Tokyo
