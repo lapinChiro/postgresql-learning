@@ -11,4 +11,13 @@
 
 # Enter the database using psql
 ./cli/access.sh
+
+# Enter the docker container
+./cli/shell.sh
+
+# Stop the docker container
+./cli/stop.sh
+
+# Drop the docker container
+./cli/remove.sh
 ```
