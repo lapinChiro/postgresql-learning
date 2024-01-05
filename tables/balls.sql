@@ -5,4 +5,5 @@ CREATE TABLE balls (
   ,color TEXT NOT NULL
   ,radius NUMERIC NOT NULL
   ,weight NUMERIC NOT NULL
+  ,PRIMARY KEY (uuid)
 );
